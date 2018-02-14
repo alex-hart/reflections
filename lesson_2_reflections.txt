@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- Creates a hidden git directory in my respostiory which will contain git metadata
+- This is required in order to start creating git commits for my project and have version control
