@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+- easy to see what lines were removed and added between the two files
+- + symbol showed me what was added in the new file and - symbol showed me what was removed from the old file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- can compare and contrast different versions of the same file to help find and fix any bugs
+- if you want to go back to an older version of the same file and work from there you can easily do it
+- helps you keep track of all changes that have been made to that file since it was created
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+- Each commit has a logical reason behind it allowing me to compare different versions of a file effectively
+- Comparing between two different versions of a file will not lead to too many changes or too little changes as I can choose when to create a commit
+
+Cons:
+- I need to remember to create a commit after every logical change
+- Requires more effort on my behalf as I need to manually create commits
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- This is because Git will sometimes involve projects that are made up for several files that come together such as HTML, CSS and JavaScript files to make a webpage where when one file is changed sometimes other files will also need to be changed to reflect that.
+- However for Google Docs this just stores single files which are not linked or related (such as photos or Word documents) so this feature is not needed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+- Use git log to view the commits, and press q to quit when I am done
+- Use git diff commitID1 commitID2 to view the changes that were made between two files
+
+How might using version control make you more confident to make changes that could break something?
+
+- I can risk making changes that could break my code because I can always go back to previous versions if it does break
+- Then using git diff I can see what I changed between the two versions and try and figure out what is breaking my newer files
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- Version controlling my personal projects that I have stored on codepen, this will include repositories of HTML, CSS and JavaScript
+- Using git to find difference between different commits to try and solve bugs
