@@ -24,3 +24,8 @@ How do the diagrams help you visualize the branch structure?
 
 - They allow me to see visually how a branch structure is laid out and what commits are on which branches.
 - They also allow me to see which commit each branch has branched off of the master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The result of merging two branches together is adding any new code from the branch that is merging into the other as well as removing any code that was removed and keeping any code that was untouched.
+- It is represented in the diagram this way to show that all commits from both branches will be shown in the log interleaved. 
