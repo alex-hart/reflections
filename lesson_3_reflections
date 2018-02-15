@@ -25,3 +25,13 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - However, it would be much harder to keep track of changes without pull requests and commit history. You also cannot fork projects.
 - Using USB would be very easy as you just upload it to the USB and pass it to a coworker.
 - This would be hard though if the coworker is not anywhere in my office, it also suffers from the same problems as Dropbox and Google Drive.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- When making experimental changes that may affect the master branch.
+- Also when trying to separate a working progress version of a project as opposed to the public working project which would be master.
+- Making changes in master branch is best done for bug fixes or minor changes that won't break the project.
+- Making changes in a separate branch is best used for making experimental features/changes or trying to fix larger bugs.
+- Making changes in a separate branch is also best used for collaborative projects as I can make my changes and then add them to the master branch.
+- This allows other people to simultaneously work on changes in their own branches.
+- Then when change branches are merged they can either be merged instantly in a pull request if there are no conflicts or resolved if there is a conflict.
