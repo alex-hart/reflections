@@ -17,3 +17,11 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 - I can merge this copy with my local repository before pushing it to GitHub.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- You could collaborate by using other file sharing services such as Google Drive and Dropbox or through USB sticks.
+- Google Drive and Dropbox would be easier to share files as the process is to just upload your file.
+- However, it would be much harder to keep track of changes without pull requests and commit history. You also cannot fork projects.
+- Using USB would be very easy as you just upload it to the USB and pass it to a coworker.
+- This would be hard though if the coworker is not anywhere in my office, it also suffers from the same problems as Dropbox and Google Drive.
